@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portofolio</title>
+</head>
+<header></header>
+<body>
+    <div class="desi">
+        <nav>
+            <h2 class="logo">Porto<span>folio</span></h2>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <a href="https://www.instagram.com/"><div class="btn">Follow Me</div></a>
+        </nav>
+        <section id="Home">
+        <div class="content">
+            <h4> HI! Introduce My Self</h4>
+            <h1>Fadiyah <span>Desi</span> Asmawati</h1>
+            <h3>Seorang Mahasiswi di Politeknik Harapan Bersama, Tegal.</h3>
+            <br>
+            <div class="news">
+                <form onsubmit="return redirectToGmail()">
+                    <input type="email" name="" placeholder="Input your email" id="mail">
+                    <input type="submit" value="Let's to start" name="submit">
+                </form>
+                <script>
+                    function redirectToGmail() {
+                        var email = document.getElementById('mail').value;
+                        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                        if (!emailRegex.test(email)) {
+                            alert('Please enter a valid email address.');
+                            return false;
+                        }
+                       window.location.href = "mailto:" + email;
+
+                       return false;
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="About Me">
+    <div class="About Me">
+        <section id="About Me">
+        <div class="main">
+            <img src="fadiyah.jpeg" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Tegal, 29 Desember 2004 (Jawa Tengah)</h5>
+                <p> Saya adalah seorang mahasiswi semester 3 program studi Teknik Informatika di Politeknik Harapan Bersama, Tegal.
+                    Saya sangat tertarik perihal pengolahan data dan UI/UX Design. Saya ingin menjadi seorang Data Analyst untuk pekerjaan saya setelah lulus kuliah.
+                </p>
+                <button type="button">Lets's Talk</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <br>
+    <section id="About Me">
+    <div class="About Me">
+        <div class="tittle">
+            <h2>Experience</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>WORKSHOP</h5>
+                <div class="pra">
+                    <p>Mengikuti workshop python fundamental, dimana kegiatan ini saya belajar mengolah dataset yang berjumlah banyak dan berlatih untuk mengkoordinir dataset tersebut</p>
+                    <p style="text-align: center;"></p>
+                    <a href="https://drive.google.com/file/d/12-dryFvRRB4NvSJ_N-bYnA8EAqxWKnQY/view?usp=drivesdk" class="button">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>PANITIA</h5>
+                <div class="pra">
+                    <p>Berkontribusi acara tahunan program studi Teknik Informatika yaitu INVOFEST, sebagai team registrasi bertugas menginput data pendaftaran setiap event dan perlombaan</p>
+                    <p style="text-align: center;"></p>
+                    <a href="https://drive.google.com/file/d/1WCUYttBjZOfvm2pAG-hTf-cvuVVmXFbo/view?usp=drivesdk" class="button">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>ANGGOTA HIMA PRODI</h5>
+                <div class="pra">
+                    <p>Mengikuti kegiatan Himpunan Mahasiswa Program Studi Informatika sebagai team aksara bentuk upaya melatih soft skill dan bisa belajar bersama</p>
+                    <p style="text-align: center;"></p>
+                    <a href="https://www.instagram.com/hmpti_harber/" class="button">See More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="Project">
+        <div class="Project">
+            <div class="tittle">
+                <h2>Project</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <h5>LKTI UNIVERSITAS BRAWIJAYA</h5>
+                    <div class="pra">
+                        <p>Mengikuti lomba karya tulis ilmiah dengan judul Perancangan Artificial Intelligence untuk Penentuan Minat dan Bakat Siswa dengan Metode Fuzzy Logic dan Forward Chaining Berbasis Android Mobile</p>
+                        <p style="text-align: center;"></p>
+                        <a href="https://drive.google.com/file/d/12-dryFvRRB4NvSJ_N-bYnA8EAqxWKnQY/view?usp=drivesdk" class="button">See More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5>PERANCANGAN APLIKASI E-LEARNING</h5>
+                    <div class="pra">
+                        <p>Membuat UI/UX aplikasi untuk anak sekolah dasar yang tidak bisa sekolah karena faktor finansial, dibuat untuk sebuah tempat pembelajaran yang dinamakan dengan Rumah Langit dibuat sesuai dengan pengalaman pengguna</p>
+                        <p style="text-align: center;"></p>
+                        <a href="https://www.figma.com/file/iS9wswzD9ufMu3FxBpcYfO/Project-UAS?type=design&node-id=0%3A1&mode=design&t=R3wfrs8i0MKEsXC3-1" class="button">See More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5>PROGRAM KREATIFITAS MAHASISWA 2022</h5>
+                    <div class="pra">
+                        <p>Mengikuti Program Kreatifitas Mahasiswa (PKM) Karsa Cipta 2022 yang lolos pendanaan dengan judul Virtual Assistant Untuk Pelayanan Kesehatan Mental pada Gen-Z. PKM ini diikuti oleh kampus seluruh Indonesia</p>
+                        <p style="text-align: center;"></p>
+                        <a href="https://www.instagram.com/p/CsImVYsPM8v/?igshid=MWUxMG1zejA3NHYy" class="button">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <section id="Contact">
+        <footer>
+            <p>Kunjungi Saya</p>
+            <div class="Sosial">
+                <a href="https://www.instagram.com/fdydsii/" target="_blank" onmouseover="changeColor(this, '#007bff')" onmouseout="changeColor(this, '#333')" onclick="showMessage('Instagram')"> <i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/fadiyah-desi-a7a490254/" target="_blank" onmouseover="changeColor(this, '#007bff')" onmouseout="changeColor(this, '#333')" onclick="showMessage('LinkedIn')"> <i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/621575625741" target="_blank" onmouseover="changeColor(this, '#007bff')" onmouseout="changeColor(this, '#333')" onclick="showMessage('WhatsApp')"> <i class="fab fa-whatsapp"></i></a>
+            </div>
+        </footer>
+        <script>
+            function changeColor(element, color) {
+                element.style.color = color;
+            }
+        
+            function showMessage(platform) {
+                alert("Anda mengunjungi " + platform);
+            }
+        </script>
+    </section>
+</body>
+</html>

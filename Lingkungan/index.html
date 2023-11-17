@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portofolio</title>
+</head>
+<header>
+    <h2>Menjaga Lingkungan Sekitar Demi Kesehatan Bersama</h2>
+</header>
+<body>
+    <div class="desi">
+        <nav>
+            <h2 class="logo">P<span>G</span></h2>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About Us">About Us</a></li>
+                <li><a href="#Konten">Konten</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <a href="https://www.instagram.com/pandawaragroup/"><div class="btn">Follow Me</div></a>
+        </nav>
+        <section id="Home">
+        <div class="content">
+            <h4> HI! WELCOME TO WEBSITE</h4>
+            <h1>Pandawara <span> Group </span></h1>
+            <h3>Lingkungan mana lagi yang akan kau kotori?</h3>
+            <br>
+            <div class="news">
+                <form onsubmit="return redirectToGmail()">
+                    <input type="email" name="" placeholder="Input your email" id="mail">
+                    <input type="submit" value="Let's to start" name="submit">
+                </form>
+                <script>
+                    function redirectToGmail() {
+                        var email = document.getElementById('mail').value;
+                        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                        if (!emailRegex.test(email)) {
+                            alert('Please enter a valid email address.');
+                            return false;
+                        }
+                       window.location.href = "mailto:" + email;
+
+                       return false;
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    <br>
+    </section>
+    <section id="About Us">
+    <div class="About Us">
+        <section id="About Us">
+        <div class="main">
+            <img src="profile.jpeg" alt="">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <h5>not cleaning but reducing</h5>
+                <p>Pandawa Group berdiri berdasarkan keresahan setiap anggota yang merupakan korban banjir. Banjir kerap terjadi di area tempat tinggal mereka yaitu Bandung Selatan. Kegiatan bersih-bersih sampah mereka tekuni mulai Agustus 2022 dan berlanjut hingga sekarang. Pada tahun 2022, Pandawa Group telah mengumpulkan sebanyak 27,066 kilogram sampah.</p>
+                <div class="Sosial">
+                <a href="https://maps.app.goo.gl/NBA4QatbuK4EtCjx5"><i class="fas fa-map-marker-alt"></i></a>
+                <a href="https://wa.me/87735080726"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com/@pandawaragroup"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="https://www.tiktok.com/@pandawaragroup?_t=8hKQAjIbFvW&_r=1"><button type="button" id="letsTalkButton">Let's Talk</button></a>
+            </div>
+            <script>
+                document.getElementById('letsTalkButton').addEventListener('click', function() {
+                    alert("Anda akan mengunjungi TikTok Account");
+                });
+            </script>
+        </div>
+    </div>
+    </section>
+    <br>>
+    <section id="Konten">
+    <div class="Konten">
+        <div class="tittle">
+            <h2>Konten</h2>
+        </div>
+        <h3>Kerusakan Lingkungan di Indonesia</h3>
+        <table style="width: 1000px;">
+		<tr>
+			<th colspan="3">Kerusakan Lingkungan di Indonesia</th>
+		</tr>
+		<tr>
+			<th>Kerusakan Lingkungan</th>
+            <th>Dampak Lingkungan</th>
+		</tr>
+		<tr>
+			<td>Indeks Kualitas Lingkungan Hidup (IKLH) Indonesia meningkat sebesar 3,72 poin</td>
+			<td>Pencemaran air, pencemaran udara </td>
+		</tr>
+		<tr>
+			<td>Data dari WALHI Indonesia kehilangan hutan seluas 680 ribu hektar setiap tahunnya</td>
+			<td>Kerusakan hutan juga dapat menurunkan kualitas hidup melalui berbagai cara, seperti mengganggu siklus air, menyebabkan kebakaran hutan, matinya flora dan fauna, berkurangnya pasokan air, serta rendahnya kualitas udara</td>
+		</tr>
+		<tr>
+			<td>Badan Pusat Statistik (BPS) mencatat bahwa sepanjang 2021 terdapat 10.683 desa/kelurahan yang mengalami pencemaran air</td>
+			<td>Pencemaran air dapat menyebabkan berbagai penyakit, seperti diare, kolera, dan hepatitis A, yang dapat mempengaruhi kesehatan masyarakat.</td>
+		</tr>
+		<tr>
+			<td>Menteri Lingkungan Hidup dan Kehutanan, Siti Nurbaya, memprediksi peningkatan kebakaran hutan dan lahan sepanjang tahun 2023</td>
+			<td>Kebakaran hutan dan lahan dapat menurunkan kualitas hidup masyarakat melalui pencemaran udara, gangguan kesehatan, dan kerugian ekonomi akibat dampak jangka panjang</td>
+		</tr>
+		<tr>
+			<td>Berdasarkan Sistem Informasi Pengelolaan Sampah Nasional (SIPSN) Kementerian Lingkungan Hidup dan Kehutanan (KLHK), total timbulan sampah di Indonesia mencapai 21,1 juta ton pada tahun 2022. Dari jumlah tersebut, sekitar 34,29% atau sekitar 7,2 juta ton belum terkelola dengan baik</td>
+			<td>Sampah yang tidak terkelola dengan baik juga dapat merusak lingkungan, seperti mengganggu siklus air, menyebabkan pencemaran tanah dan air, serta merusak ekosistem alam</td>
+        </tr>
+		<tr>
+			<th rowspan="3">Peningkatan Kerusakan Lingkungan</th>
+			<th>6%</th>
+		</tr>
+	</table>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Pandawara Group dan Relawan Bersihkan 200 Ton Sampah di Kampung Nelayan Makassar</h5>
+                <div class="pra">
+                    <p style="text-align: center;"></p>
+                    <a href="https://makassar.kompas.com/read/2023/10/22/151751778/pandawara-group-dan-relawan-bersihkan-200-ton-sampah-di-kampung-nelayan" class="button">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Beri Dampak Positif, Pandawara Sukses Manfaatkan Medsos untuk Peduli Lingkungan</h5>
+                <div class="pra">
+                    <p style="text-align: center;"></p>
+                    <a href="https://nasional.sindonews.com/read/1248509/15/beri-dampak-positif-pandawara-sukses-manfaatkan-medsos-untuk-peduli-lingkungan-1699618266" class="button">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Pandawara Group Dapat Penghargaan Changemakers of the Year oleh Tiktok Indonesia</h5>
+                <div class="pra">
+                    <p style="text-align: center;"></p>
+                    <a href="https://mediaindonesia.com/humaniora/621033/pandawara-group-dapat-penghargaan-changemakers-of-the-year-oleh-tiktok-indonesia" class="button">See More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="Contact">
+    <footer>
+        <p>@CopyRight2023</p>
+    </footer>
+    </section>
+</body>
+</html>
